@@ -1,0 +1,109 @@
+Fibonacci sequence
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it
+num1 = int(input("num1 \n"))
+print(str(num1) + " <- num1")
+num2 = int(input("num2 \n"))
+print(str(num2) + " <- num2")
+for i in range(100):
+    num3 = num2 + num1
+    print(num3)
+    num1 = num2
+    num2 = num3
+
+
+While loop
+
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it
+num1 = int(input("num1 \n"))
+print(str(num1) + " <- num1")
+num2 = int(input("num2 \n"))
+print(str(num2) + " <- num2")
+num3 = 0
+while(num3 < 1000):
+    num3 = num2 + num1
+    print(num3)
+    num1 = num2
+    num2 = num3
+
+
+Login system
+user = 'root'
+passw = 'toor'
+
+entereduser = input("whats user \n")
+if entereduser == user:
+    print("success!") 
+else:
+    print("username incorrect :(")
+#######################################################################
+enteredpass = input("enter password\n")
+if enteredpass == passw:
+    print("password correct")
+else:
+    print("password incorrect")
+#######################################################################
+print("welcome root")
+
+Color
+
+fav = input("fav color (lowercase please\n")
+if fav == "green"  or fav == "red" or fav == "blue":
+    print("primary")
+else:
+    print("not primary")
+
+
+
+
+List
+Mylist = [“apples”, 5, “carrots”]
+print(mylist[1])
+
+login
+
+
+userlist = ["tristan", "james", "root"]
+tristanuser = 'tristan'
+passlist = ["tr1", "jm1", "toor"]
+tristanpass = 'tr1'
+jamespass = 'jm1'
+
+entered1 = input("enter username \n")
+if entered1 == 'tristan':
+    enteredpass = input("whats your pass tristan\n")
+    if enteredpass == tristanpass:
+        print("welcome tristan")
+if enteredpass != tristanpass:
+    print("keep guessing")
+    
+###############################
+
+if entered1 == 'james':
+    enteredpass2 = input("whats your pass james")
+    if enteredpass2 == jamespass:
+        print("welcome james")
+
+
+
+Fruit thing 
+
+myfruit = []
+fruit = ""
+while fruit != 'done':
+    fruit = input("enter fruits (type done when done(\n")
+    myfruit.append(fruit)
+    myfruit.remove('done')
+print(myfruit)
+myfruit.sort
+print(myfruit)
+
+
+
+Slope of line
+y2 = int(input("y2? "))
+y1 = int(input("y1? "))
+x2 = int(input("x2? "))
+x1 = int(input("x1? "))
+print(y2-y1/x2-x1)
